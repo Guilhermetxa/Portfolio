@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F6F1EE;
+}
+
+.menu {
+    background-color: #000;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+}
+
+.menu a::after {
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+
+.menu a:hover::after {
+    width: 100%;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon {
+    display: block;
+    float: left;
+    padding: 10px 16px;
+    cursor: pointer;
+    color: white;
+    font-size: 28px;
+}
+
+.home {
+    background: url(fundo.png);
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.nome {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+.retrato img {
+    border-radius: 50%;
+}
+
+.projetos {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    background-color: #D0D4CA;
+}
+
+.container-bloco {
+    padding: 4rem;
+}
+
+.nomedoprojeto {
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.bloco {
+    padding: 3rem;
+    background-color: #80B3FF;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.contato {
+    background-color: #D0D4CA;
+}
+.contato h1{
+    justify-content: center;
+}
+.icones {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10rem;
+    padding-bottom: 4rem;
+}
+
+.h1contato {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+
+footer {
+    background-color: black;
+    height: 62px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+}
